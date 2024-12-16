@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply overflow-x-hidden select-none;
+}
+
+.nav_link {
+  @apply text-lg font-bold duration-300 text-white z-20 md:text-[#3e3e3e];
+}
+
+.nav_link:hover,
+.nav_links:hover {
+  @apply text-[#FF0000];
+}
+
+.red {
+  @apply text-[#FF0000];
+}
+
+/* 
+h-[60vh] w-full flex gap-10 flex-col justify-center items-center bg-[#EFF1FB]/80 backdrop-blur-sm absolute */

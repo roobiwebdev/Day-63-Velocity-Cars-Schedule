@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.min.css"
+    />
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({ reset: true });
+    </script>
+    <title>Velocity</title>
+  </head>
+  <body>
+    <header class="nav__data md:mt-6" id="home">
+      <nav class="container px-5 flex justify-between items-center mt-5">
+        <h1 class="text-4xl font-bold md:text-5xl">Velocity</h1>
+
+        <ul
+          class="nav_bar z-10 w-full flex flex-col gap-7 justify-center items-center duration-300 absolute top-0 left-[-100%] bg-black/80 backdrop-blur-sm h-[50vh] md:flex-row md:h-auto md:relative md:bg-transparent md:justify-end md:left-[0]"
+        >
+          <li class="nav_link">
+            <a href="#home">Home</a>
+          </li>
+
+          <li class="nav_link">
+            <a href="#benefit">Benefits</a>
+          </li>
+
+          <li class="nav_link">
+            <a href="#solution">Solution</a>
+          </li>
+
+          <li class="nav_link">
+            <a href="#aboutUs">About Us</a>
+          </li>
+        </ul>
+
+        <div class="absolute z-20 right-5 md:hidden">
+          <i
+            class="ri-menu-4-line cursor-pointer text-3xl font-bold"
+            id="menu"
+          ></i>
+        </div>
+      </nav>
+
+      <div
+        class="home__left text-[10rem] text-[#EFEFEF] tracking-normal font-bold transform rotate-[-90deg] mt-0 absolute top-1/3 -left-60 lg:text-[12rem] lg:-left-72 lg:top-[27%] -z-10"
+      >
+        Velocity
+      </div>
+
+      <div
+        class="-z-10 home__title flex flex-col justify-center items-center mt-16"
+      >
+        <h1 class="text-3xl lg:text-4xl">Explor the Art of</h1>
+        <h1
+          class="text-7xl lg:text-[10rem] scale-y-[1.85] font-sans font-extrabold mt-8 lg:mt-8"
+        >
+          DRIVING
+        </h1>
+
+        <div
+          class="mt-16 lg:mt-20 w-full cursor-pointer flex justify-center items-start"
+        >
+          <img
+            src="assets/white-car.png"
+            alt="White_Car"
+            class="white__car lg:w-7/12 mt-5"
+          />
+        </div>
+
+        <p
+          class="home__data text-center font-normal w-[88%] text-[#474a4a] md:w-1/2 mx-auto mt-[-3rem] md:font-medium leading-6"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas suscipit
+          error, accusantium assumenda animi nulla libero minima non magni,
+          cupiditate ad a quod eaque mollitia, consequuntur harum soluta unde
+          cupiditate ad a quod eaque mollitia, consequuntur harum soluta unde
+          odit.
+        </p>
+
+        <div
+          class="home__data w-ful mt-8 flex gap-x-5 justify-between items-center text-xl"
+        >
+          <button
+            class="border w-40 px-5 py-2 border-[#FF0000] bg-[#FF0000] text-white sm:w-52 md:py-4 md:px:7"
+          >
+            Get Started
+          </button>
+          <button
+            class="border w-40 px-5 py-2 border-[#FF0000] text-[#FF0000] sm:w-52 md:py-4 md:px:7"
+          >
+            Discover
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="home__right hidden md:w-[100%] md:flex justify-center gap-x-16 transform rotate-[-90deg] absolute top-1/2 mb-5 left-[40%] lg:left-[48%] lg:top-[34%]"
+      >
+        <div>
+          <h2 class="font-bold text-[#A1A1A1]">Trade-in</h2>
+          <h2 class="font-bold text-[#A1A1A1]">Service</h2>
+        </div>
+
+        <div>
+          <h2 class="font-bold text-[#A1A1A1]">Warranty and</h2>
+          <h2 class="font-bold text-[#A1A1A1]">Guarantees</h2>
+        </div>
+
+        <div>
+          <h2 class="font-bold text-[#A1A1A1]">Test Drive</h2>
+          <h2 class="font-bold text-[#A1A1A1]">Oppotunities</h2>
+        </div>
+
+        <div>
+          <h2 class="font-bold text-[#A1A1A1]">Expert</h2>
+          <h2 class="font-bold text-[#A1A1A1]">Guidance</h2>
+        </div>
+
+        <div>
+          <h2 class="font-bold text-[#A1A1A1]">Wide Selection of</h2>
+          <h2 class="font-bold text-[#A1A1A1]">Vehicles</h2>
+        </div>
+      </div>
+    </header>
+
+    <section
+      class="my-28 py-5 relative h-auto lg:h-screen bg-black flex items-center flex-col"
+      id="benefit"
+    >
+      <div
+        class="explor__data w-28 h-28 bg-[#FF0000] rounded-full absolute left-5 sm:left-32 md:left-[25%] md:w-32 md:h-32 lg:left-[20%] lg:w-52 lg:h-52"
+      ></div>
+      <h1
+        class="explor__data text-3xl text-white pt-7 text-center scale-y-125 font-bold z-10 md:text-4xl lg:text-5xl xl:text-7xl lg:pt-12"
+      >
+        Explor Our Collection
+      </h1>
+
+      <div
+        class="home__right text-[8rem] text-[#343434] tracking-normal font-bold transform rotate-[-90deg] mt-5 absolute top-1/3 -right-60 lg:text-[10rem] lg:-right-72 z-10"
+      >
+        Collaction
+      </div>
+
+      <img
+        src="assets/R.png"
+        alt="Car Image"
+        class="red__car w-10/12 lg:w-8/12 mt-20 z-10 cursor-pointer"
+      />
+
+      <div
+        class="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 z-10 justify-between items-center mx-auto mt-10 w-[80%]"
+      >
+        <div
+          class="card1 flex flex-col border p-5 cursor-pointer text-white hover:-translate-y-5 duration-300"
+        >
+          <h1 class="text-3xl font-bold pb-4 mb-2 border-b-2 border-[#ff0000]">
+            Luxury Sedans
+          </h1>
+          <p class="py-3 lg:py-5">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex,
+            ashdjka lorem times.
+          </p>
+          <button
+            class="text-lg font-bold w-full py-2 md:py-3 px-10 text-black bg-white"
+          >
+            Discover
+          </button>
+        </div>
+
+        <div
+          class="card2 flex flex-col border p-5 cursor-pointer text-white hover:-translate-y-5 duration-300"
+        >
+          <h1 class="text-3xl font-bold pb-4 mb-2 border-b-2 border-[#ff0000]">
+            Luxury Sedans
+          </h1>
+          <p class="py-3 lg:py-5">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex,
+            ashdjka lorem times.
+          </p>
+          <button
+            class="text-lg font-bold w-full py-2 md:py-3 px-10 text-black bg-white"
+          >
+            Discover
+          </button>
+        </div>
+
+        <div
+          class="card3 flex flex-col border p-5 cursor-pointer text-white hover:-translate-y-5 duration-300"
+        >
+          <h1 class="text-3xl font-bold pb-4 mb-2 border-b-2 border-[#ff0000]">
+            Luxury Sedans
+          </h1>
+          <p class="py-3 lg:py-5">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex,
+            ashdjka lorem times.
+          </p>
+          <button
+            class="text-lg font-bold w-full py-2 md:py-3 px-10 text-black bg-white"
+          >
+            Discover
+          </button>
+        </div>
+      </div>
+
+      <div
+        class="try__data hidden lg:flex justify-around items-center w-full px-[10rem] mx-auto py-16 border-b"
+      >
+        <h1
+          class="hidden md:block text-5xl font-bold scale-x-150 scale-y-[1.85] text-[#DEDEDE]"
+        >
+          TRY NOW
+        </h1>
+        <span
+          class="text-5xl font-bold scale-x-150 scale-y-[1.85] text-[#DEDEDE]"
+          >*</span
+        >
+        <h1
+          class="text-5xl font-bold scale-x-150 scale-y-[1.85] text-[#DEDEDE]"
+        >
+          TRY NOW
+        </h1>
+        <span
+          class="text-5xl font-bold scale-x-150 scale-y-[1.85] text-[#DEDEDE]"
+          >*</span
+        >
+        <h1
+          class="text-5xl font-bold scale-x-150 scale-y-[1.85] text-[#DEDEDE]"
+        >
+          TRY NOW
+        </h1>
+      </div>
+    </section>
+
+    <main class="py-0 md:py-20">
+      <div
+        class="w-11/12 flex flex-col justify-center items-center md:w-[80%] mx-auto xl:block"
+      >
+        <div
+          class="try__data leading-none flex flex-wrap justify-center items-center gap-2 xl:block"
+          id="solution"
+        >
+          <h1
+            class="text-4xl md:text-[5rem] scale-y-125 font-semibold z-10 md:mt-10"
+          >
+            Superior
+          </h1>
+          <h1
+            class="text-4xl md:text-[5rem] scale-y-125 font-semibold z-10 md:mt-10"
+          >
+            Performance
+          </h1>
+        </div>
+        <div
+          class="try__data flex flex-col justify-between items-center xl:block"
+        >
+          <p
+            class="w-full text-center my-8 md:my-12 md:w-[50%] text-[#474a4a] xl:text-start font-medium leading-6"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
+            a dignissimos facilis possimus quo quas repellat excepturi minima
+            laborum, cupiditate architecto impedit distinctio sit nam officiis
+            velit quis molliti.
+          </p>
+          <button
+            class="border w-40 px-5 py-2 border-[#FF0000] bg-[#FF0000] text-white sm:w-52 md:py-4 md:px:7"
+          >
+            Discover
+          </button>
+        </div>
+
+        <div
+          class="curve_car h-[100vh] w-[20.3rem] lg:w-full lg:h-[25.3rem] my-[5rem] relative rounded-[200px] cursor-pointer"
+        >
+          <img
+            src="assets/50933995352_9b6848b549.jpg"
+            alt="Car"
+            class="w-full h-full object-cover rounded-[200px]"
+          />
+          <div
+            class="h-[20rem] w-[20rem] lg:h-[25rem] lg:w-[25rem] bg-white rounded-[200px] absolute left-[3px] top-[2px] z-auto flex justify-center items-center text-[9rem] text-[#ff0000]"
+          >
+            <i class="fa-solid fa-play"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="why_data hidden lg:block w-[80%] mx-auto my-16">
+        <h1 class="why__data text-center font-bold text-7xl my-16 scale-y-150">
+          Why Choose Velocity
+        </h1>
+
+        <div class="flex h-[40rem] mx-auto relative">
+          <img
+            src="assets/black-car.jpg"
+            alt=""
+            class="why__Carimg h-full w-full object-cover absolute z-0"
+          />
+          <div
+            class="why__card1 flex flex-col w-[25%] h-full border-r-8 border-white z-10"
+          >
+            <div class="bg-[#EFF0FA] cursor-pointer h-[46%] p-10">
+              <h1 class="text-3xl font-bold">Unrivaled Selection</h1>
+              <p class="mt-6">
+                Discover curated selection of the world's of the world's most
+                prestigious brands.
+              </p>
+            </div>
+            <div class="bg-transparent"></div>
+          </div>
+
+          <div
+            class="why__card2 flex flex-col h-full w-[25%] border-r-8 border-l-8 border-white z-10"
+          >
+            <div></div>
+            <div></div>
+          </div>
+
+          <div
+            class="why__card3 flex flex-col w-[25%] h-full border-r-8 border-l-8 border-white z-10"
+          >
+            <div class="bg-transparent h-[54%]"></div>
+            <div class="bg-[#EFF0FA] cursor-pointer h-[46%] p-10">
+              <h1 class="text-3xl font-bold">Expert Guidance</h1>
+              <p class="mt-6">
+                Our knowledgeable and experienced team is here to guide you
+                through every step of the car-buying
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="why__card4 flex h-full w-[25%] bg-[#EFF0FA] cursor-pointer border-l-8 border-white z-10"
+          >
+            <div class="flex flex-col p-10 justify-center items-center">
+              <h1 class="text-3xl font-bold">Test Drive Experience</h1>
+              <p class="mt-5">
+                Each vehicle in our showroom is a masterpiece of engineering,
+                beyond transportation. Enjoy the exhilaration of superior.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="curve_car flex flex-col-reverse justify-center items-center bg-[#ff0000] bg-opacity-50 mx-auto h-[100vh] w-[20.3rem] lg:w-[80%] lg:h-[25.3rem] my-[5rem] relative rounded-[200px] cursor-pointer"
+      >
+        <img
+          src="assets/50933995352_9b6848b549.jpg"
+          alt="Car"
+          class="w-full h-full object-cover rounded-[200px]"
+        />
+        <div
+          class="absolute z-10 inset-0 bg-[#ff0000] bg-opacity-80 rounded-[200px]"
+        ></div>
+        <div
+          class="h-[20rem] w-[20rem] lg:h-[25rem] lg:w-[25rem] bg-white rounded-[200px] absolute right-[3px] top-[2px] z-10 flex justify-center items-center text-[9rem] font-extrabold text-[#ff0000]"
+        >
+          ⟶
+        </div>
+
+        <h1
+          class="text-6xl md:text-3xl w-full text-center lg:text-start text-white font-bold mt-32 absolute top-1/2 left-0 z-10 lg:text-8xl lg:-top-5 lg:left-[7rem]"
+        >
+          Schedule a<br />
+          Test Drive
+        </h1>
+      </div>
+    </main>
+
+    <footer
+      class="footer__data w-[90%] mx-auto flex flex-col justify-center items-center my-10"
+      id="aboutUs"
+    >
+      <h1 class="text-3xl font-bold mb-3">Velocity</h1>
+      <p class="mb-3 text-[#949595]">
+        Copyright @velocity 2024 All right reserved
+      </p>
+      <hr />
+      <div
+        class="flex flex-col md:flex-row gap-8 justify-between items-center w-full pt-5 border-t-2"
+      >
+        <h1 class="hidden lg:text-3xl font-bold">Velocity</h1>
+
+        <ul
+          class="flex flex-col md:flex-row gap-3 justify-between items-center"
+        >
+          <li
+            class="nav_links font-medium text-[#949595] cursor-pointer duration-300"
+          >
+            Home
+          </li>
+          <li
+            class="nav_links font-medium text-[#949595] cursor-pointer duration-300"
+          >
+            Solutions
+          </li>
+          <li
+            class="nav_links font-medium text-[#949595] cursor-pointer duration-300"
+          >
+            Benefits
+          </li>
+          <li
+            class="nav_links font-medium text-[#949595] cursor-pointer duration-300"
+          >
+            About Us
+          </li>
+        </ul>
+
+        <div
+          class="flex justify-center items-center gap-5 text-2xl cursor-pointer"
+        >
+          <i class="fa-brands fa-square-x-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+
+          <a href="#home">
+            <div
+              class="w-8 h-8 bg-gray-500 rounded-lg flex justify-center items-center"
+            >
+              <i class="ri-arrow-up-fill font-bold text-red-700"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/86346d9f4b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
